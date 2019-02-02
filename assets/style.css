@@ -1,0 +1,29 @@
+body {
+    padding: 20px;
+  }
+  
+  #jumbotron {
+    margin: auto;
+    padding: 80px;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+  }
+
+  h1    {
+      text-align: center;
+      color: black;
+      font-size: 200px;
+  }
+
+  h3    {
+      background-color: lightblue;
+  }
+  
+  label {
+    font-size: 14pt;
+  }
+  
+  table {
+    font-size: 14pt;
+    text-align: left;
+  }
