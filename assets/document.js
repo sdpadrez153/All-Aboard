@@ -62,9 +62,9 @@ $(document).ready(function () {
 
         var frequencyRemainingMinutes = diffTimeInMinutes % frequency;
 
-        var nextArrival = frequency - frequencyRemainingMinute;
+        var nextArrival = frequency - frequencyRemainingMinutes;
 
-        var nextTrain = moment().add(nextarrival, "minutes");
+        var nextTrain = moment().add(nextArrival, "minutes");
 
 
 
