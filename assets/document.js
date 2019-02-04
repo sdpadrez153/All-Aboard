@@ -56,7 +56,7 @@ $(document).ready(function () {
 
         var currentTime = moment();
 
-        var firstTrainConverted = moment(firstTrain, "hh:mm").subtrack(1, "years");
+        var firstTrainConverted = moment(firstTrain, "hh:mm").subtract(1, "years");
 
         var diffTimeInMinutes = moment().diff(moment(firstTrainConverted), "minutes");
 
